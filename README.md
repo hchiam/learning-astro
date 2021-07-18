@@ -8,6 +8,8 @@ The idea: any JS framework --> output and serve just HTML. (Plus only the JS you
 
 <https://css-tricks.com/newsletter/255-thoughts-on-astro>
 
+<https://www.youtube.com/watch?v=dsTXcSeAZq8>
+
 ## From scratch
 
 ```bash
