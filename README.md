@@ -10,6 +10,11 @@ The idea: any JS framework --> output and serve just HTML. (Plus only the JS you
 
 <https://www.youtube.com/watch?v=dsTXcSeAZq8>
 
+- default = no client-side JS by default on components
+- `client:load` = immediately/always hydrate component with JS
+- `client:idle` = when you're free
+- `client:visible` = when visible
+
 ## From scratch
 
 ```bash
