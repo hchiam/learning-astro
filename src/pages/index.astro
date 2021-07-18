@@ -1,5 +1,7 @@
 ---
 import Tour from '../components/Tour.astro';
+import SvelteStuff from '../components/SvelteStuff.svelte';
+import { ReactStuff } from '../components/ReactStuff.jsx';
 ---
 
 <!doctype html>
@@ -24,15 +26,19 @@ import Tour from '../components/Tour.astro';
     </style>
 </head>
 <body>
-    <main>
-        <header>
-            <div>
-                <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
-                <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
-            </div>
-        </header>
+    <header client:load>
+        <div>
+            <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
+            <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
+        </div>
+    </header>
 
-        <Tour />
+    <main>
+        <Tour client:idle/>
+        <br>
+        <SvelteStuff client:visible></SvelteStuff>
+        <br>
+        <ReactStuff client:visible></ReactStuff>
     </main>
 </body>
 </html>
