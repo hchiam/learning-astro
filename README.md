@@ -1,8 +1,10 @@
-# Learning Astro
+# Learning Astro (a "meta-framework")
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 The idea: any JS framework --> output and serve just HTML. (Plus only the JS you need, when you need it.)
+
+React and Vue and Svelte and Vanilla JS, etc. =(Astro)=> native HTML + JS
 
 <https://github.com/snowpackjs/astro>
 
