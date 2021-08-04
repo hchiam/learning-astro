@@ -33,6 +33,12 @@ npm start # http://localhost:3000/
 git clone https://github.com/hchiam/learning-astro.git && cd learning-template && npm install && npm start;
 ```
 
+## Deploy
+
+```bash
+npm run build # build output goes to /dist by default, so you can deploy from /dist
+```
+
 ## Example project starters
 
 <https://github.com/snowpackjs/astro/tree/main/examples> (go into a folder to see example setup command, for example `npm init astro -- --template with-tailwindcss`)
