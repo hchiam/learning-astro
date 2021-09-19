@@ -1,6 +1,6 @@
 # Learning Astro (a "meta-framework")
 
-Just one of the things I'm learning. <https://github.com/hchiam/learning>
+Just one of the things I'm learning. <https://github.com/hchiam/learning> and <https://github.com/hchiam/learning-frameworks>
 
 The idea: any JS framework --> output and serve just HTML. (Plus only the JS you need, when you need it.)
 
